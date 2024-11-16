@@ -1,0 +1,94 @@
+<link rel="stylesheet" href="styles.css">
+<h1 id="title">GCTU Survey Form for Students </h1>
+<p id="description">How can we make your learning experience better?</p>
+
+<form id="survey-form">
+  <div class="survey-form">
+  <label for="name" id="name-label">
+     Name:
+    <input placeholder="Enter your name" id="name" type="text" required/>
+    </label>
+  </div>  
+
+  <div class="survey-form">
+    <label for="email" id="email-label">
+      E-mail:
+      <input placeholder="Enter a valid email" id="email" type="email" required/>
+      </label>
+    </div>
+
+    <div class="survey-form">
+  <label for="number" id="number-label">
+     Age(optional):
+    <input placeholder="number" id="number" type="number" value="number" min="10" max="35">
+    </label>
+  </div>
+
+ <div class="survey-form">
+  <label for="select" id="select-label">
+     Which level are you in currently?
+    <select id="dropdown" type="text" required/>
+     <option>Select one</option>
+     <option>100</option>
+     <option>200</option>
+     <option>300</option>
+     <option>400</option>
+     <option>Other</option>
+    </select>
+    </label>
+  </div>
+ 
+ <div class="survey-form">
+   <label>How would you rate your learning experience so far?</label>
+   <div>
+   <label><input type="radio" name="learnex" value="learnex"/>Excellent</label>
+   </div>
+   <div>
+   <label><input type="radio" name="learnex" value="learnex"/>Good</label>
+   </div>
+   <div>
+   <label><input type="radio" name="learnex" value="learnex"/>Average</label>
+   </div>
+   <div>
+   <label><input type="radio" name="learnex" value="learnex"/>Bad</label>
+   </div>
+   <div>
+   <label><input type="radio" name="learnex" value="learnex"/>Poor</label>
+   </div>
+ </div>
+
+ <div class="survey-form">
+  <label for="select" id="select-label">
+     If given a chance to start over, would you choose GCTU again?
+    <select id="dropdown" type="text" required/>
+     <option>Select one</option>
+     <option>Yes</option>
+     <option>No</option>
+    </select>
+    </label>
+  </div>
+
+ <div class="survey-form">
+   <label>What extra curricular activity(activities) are you involved in?</label>
+   <div>
+   <label><input type="checkbox" name="learnex" value="checkbox"/>GCTU Robotics</label>
+   </div>
+   <div>
+   <label><input type="checkbox" name="learnex" value="checkbox"/>GCTU Cadet Corps and Regimental Band</label>
+   </div>
+   <div>
+   <label><input type="checkbox" name="learnex" value="checkbox"/>GCTU Dance Club</label>
+   </div>
+   <div>
+   <label><input type="checkbox" name="learnex" value="checkbox"/>Other</label>
+   </div>
+ </div>
+
+ <div class="survey-form">
+   <label>Any comments or suggestions?</label>
+   <textarea type="text" placeholder="Enter your comment..."></textarea>
+     </div>
+ </div>
+
+ <button type="submit" id="submit" class="survey-form">Submit</button>
+</form>
